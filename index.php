@@ -42,7 +42,7 @@
             <input type="submit" value="Iniciar">
             
             <div class="Registrarse">
-                 <a href="../PHP/registro.php">Registrarse</a>
+                 <a href="PHP/registro.php">Registrarse</a>
             </div>
         </form> 
           
