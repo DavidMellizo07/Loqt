@@ -1,3 +1,14 @@
+<?php
+session_start();
+include("conexion.php");
+$conn = connection(); // Corregido el nombre de la variable de conexión
+
+// Verificar conexión
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
